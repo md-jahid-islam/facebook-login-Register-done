@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login & Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <div class="form-header">
+                <h1 id="form-title">Login</h1>
+                <button id="switch-form">Register</button>
+            </div>
+            <form id="auth-form">
+                <div id="login-form">
+                    <input type="text" id="username" placeholder="Username" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                    <button type="submit">Login</button>
+                    <a href="#" id="forgot-password">Forgot Password?</a>
+                </div>
+                <div id="register-form" class="hidden">
+                    <input type="text" id="first-name" placeholder="First Name" required>
+                    <input type="text" id="last-name" placeholder="Last Name" required>
+                    <input type="text" id="username-reg" placeholder="Username" required>
+                    <input type="email" id="email-reg" placeholder="Email" required>
+                    <input type="password" id="password-reg" placeholder="Password" required>
+                    <input type="password" id="confirm-password-reg" placeholder="Confirm Password" required>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
